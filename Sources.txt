@@ -1,2 +1,5 @@
 https://polyhaven.com/a/checkered_pavement_tiles
 https://polyhaven.com/a/treasure_chest
+https://polyhaven.com/a/broken_brick_wall
+https://polyhaven.com/a/recycled_brick_floor
+https://polyhaven.com/a/metal_plate

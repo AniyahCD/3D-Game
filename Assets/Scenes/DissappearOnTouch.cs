@@ -2,11 +2,13 @@ using UnityEngine;
 
 public class DissappearOnTouch : MonoBehaviour
 {
+    public AudioSource audioSource;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(gameObject, 1f);
+            Destroy(gameObject);
+            audioSource.Play();
         }
     }
 }
