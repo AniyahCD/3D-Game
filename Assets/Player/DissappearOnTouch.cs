@@ -7,8 +7,8 @@ public class DissappearOnTouch : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Destroy(gameObject);
             audioSource.Play();
+            Destroy(gameObject, 1f);
         }
     }
 }
